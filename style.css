@@ -1,0 +1,37 @@
+/* Table of Contents:
+    1. Container
+    2. Navbar
+    3. Header
+    4. General styles
+ */
+
+/* 1. Container */
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+/* 2. Navbar */
+
+/* 3. Header */
+.header{
+    width: inherit;
+    height: 200px;
+}
+
+.header li a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 15px;
+}
+.navbar {
+    width: inherit;
+    float: left;
+}
+
+.content{
+
+}
