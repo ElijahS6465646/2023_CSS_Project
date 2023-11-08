@@ -12,7 +12,19 @@
     margin: auto;
 }
 
-/* 2. Navbar */
+
+@font-face {
+    font-family: specialText;
+    src: url('../2023_CSS_Project/fonts/bad-script-v16-latin-regular.woff2');
+}
+
+.basicFont {
+    font-family: mainText,serif;
+}
+
+.specialText{
+    font-family: specialText,serif;
+}
 
 /* 3. Header */
 .header{
@@ -27,11 +39,32 @@
     text-decoration: none;
     padding: 16px 15px;
 }
+
+/* 2. Navbar */
 .navbar {
     width: inherit;
     float: left;
 }
 
 .content{
+    width: 50%;
+    height: 500px;
+    background-color: green;
+    float: left;
+}
 
+.content2{
+    width: 50%;
+    height: 500px;
+    background-color: aquamarine;
+    float: right;
+}
+.contenttext{
+
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: cornflowerblue;
 }
